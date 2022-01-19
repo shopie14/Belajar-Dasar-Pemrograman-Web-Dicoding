@@ -1,0 +1,75 @@
+# Dicoding-Belajar-Dasar-Pemrograman-Web-
+Source code membuat website kelas dicoding
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+
+  /* properti pendukung */
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: right;
+  color: #fefbf3;
+}
+
+.flex-container-row {
+  display: flex;
+}
+
+.button {
+  flex-basis: 25%;
+
+  /* properti pendukung */
+  font-size: 1.5em;
+  text-align: center;
+  padding: 40px;
+  border: 1px solid black;
+  background: -webkit-linear-gradient(top, #d2d2d2, #35858b);
+  cursor: pointer;
+}
+
+.button:hover {
+  font-weight: bold;
+}
+
+.double {
+  flex-basis: 50%;
+}
+
+.display {
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #1a374d;
+  border: 1px solid black;
+  font-size: 2em;
+}
+
+.operator,
+.negative,
+.equals {
+  background: #1597e5;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 513px) {
+  .button {
+    padding: 10px;
+  }
+}
